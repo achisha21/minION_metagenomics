@@ -1,6 +1,6 @@
 # minION_metagenomics
 
-Snakemake metagenomics pipeline
+Nanopore to Bracken Snakemake
 
 Currently Loaded Modules:
 
