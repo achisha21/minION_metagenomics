@@ -1,0 +1,45 @@
+{
+    "raw_fastq_gz_dir": "/projects/academic/gbcstaff/Core_Projects/Kraken-Metagenomics/pipeline/Revamp_Snakemake/Files",
+    "meta_file": "metadata.txt",
+    "tool_version":
+    {
+        "fastx": "0.0.13",
+        "cutadapt": "1.16",
+        "samtools": "1.7",
+        "bowtie2": "2.4.1",
+        "subread": "2.2.0"
+    },
+    "file_names":
+    {
+        "mkdir_done": "mkdir.done",
+        "peaks_done": "peaks.done"
+    },
+    "dir_names":
+    {
+        "porechop_dir": "outputs/porechop",
+        "Kraken_dir": "outputs/Kraken",
+        "Bracken_dir": "outputs/Bracken"
+    },
+    "params":
+    {
+        "bowtie2":
+            {
+            "threads": "4",
+            "all": "-a",
+            "bowtie2_reference":"/projects/academic/gbcstaff/igenome-041714/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome"
+            },
+        "deeptools":
+            {
+            "cores": "4",
+            "size": "2652783500"
+            },
+        "picard":
+            {
+            "picard_path": "/projects/academic/gbcstaff/utils/picard/picard-2.10.0/"
+            },
+        "macs2":
+            {
+            "genome": "hs"
+            }
+    }
+}
