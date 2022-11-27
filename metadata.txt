@@ -1,0 +1,2 @@
+#SampleID	ForwardFastqGZ	
+Sample_1		FAQ75009_pass_barcode01_57656f7b_0.fastq.gz
