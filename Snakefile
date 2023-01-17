@@ -2,7 +2,7 @@
 import pandas as pd 
 import os
 
-#trim -> fastqc -> mapping -> remove duplicates -> index
+#Porechop -> Kraken2 -> Bracken
 
 configfile: "config.json"
 localrules: all, mkdir 
